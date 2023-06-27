@@ -9,7 +9,7 @@ Password Generator using vanilla JavaScript , HTML and CSS
 1. Generate 4 passwords of 8 to 12 characters by clicking on the button
 2. User has to enter the length of the password by default it is 8.
   
-**Live URL :-** 
+**Live URL :-** https://password-generator-design.netlify.app/
 
 **ScreenShots**
 
