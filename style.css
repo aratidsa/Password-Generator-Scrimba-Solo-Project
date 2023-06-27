@@ -1,0 +1,158 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body
+{
+   font-family: 'Lobster', cursive;
+   background-color:rgb(168, 95, 236);
+   color:white;
+   text-align: center;  
+}
+
+.container
+{   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title-details
+{
+    font-size:1.88rem;
+    margin-top:3.13rem;
+}
+.pt-1
+{
+    color:rgb(37, 7, 65);
+}
+
+.pt-2
+{
+    color:rgb(130, 8, 8);
+}
+
+.info
+{
+    color:rgb(60, 59, 59);
+}
+
+.length-details
+{
+    font-size:0.75rem;
+    color:black;
+}
+
+.btn
+{
+    margin-top:1.88rem;
+    display: flex;
+    justify-content: center;
+}
+.password-generate-btn
+{
+    font-family: 'Lobster', cursive;
+    width:12.5rem;
+    height:2.5rem;
+    font-size:1.25rem;
+    background-color: rgb(37, 7, 65);
+    border:none;
+    color:white;
+    cursor: pointer;
+    border-radius: 1.25rem;
+    margin-left:-5.63rem;
+}
+
+.password-generate-btn:hover{
+    background-color: darkgray;
+    color:black;
+}
+
+.input-data
+{
+    margin-left:6.25rem;
+    width:4.38rem;
+    height:2.5rem;
+    font-size: 1.55rem;
+    border-radius: 0.31rem;
+    text-align: center;
+    border: none;
+    background-color: rgb(37, 7, 65);
+    color:white;
+}
+
+.input-data:hover{
+    background-color: darkgray;
+    color:black;
+}
+
+.passwords
+{
+    margin-top:2.5rem;
+    display:flex;
+    justify-content: space-between;
+    width:31.25rem;
+    height:9.38rem;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#pswd-1,#pswd-2,#pswd-3,#pswd-4
+{
+    width:12.5rem;
+    height:2.5rem;
+    background-color: rgb(37, 7, 65);
+    color:white;
+    padding-top:0.31rem;
+    font-size:1.25rem;
+    border-radius:0.31rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* ---------------------------mobile layout -------------------- */
+
+@media screen and (max-width:600px)
+{
+   .title-details
+    {
+        font-size:1.13rem;
+        margin-top:6.25rem;
+        margin-left:1.55rem;
+        line-height: 1.5;
+        
+    }
+    .password-generate-btn
+    {
+        width:10.63rem;
+        height:2.5rem;
+        font-size:1.13rem;
+        margin-left:1.25rem;
+    }
+
+    .input-data
+    {
+        margin-left:1.2rem;
+        width:3.13rem;
+        height:2.5rem;
+        font-size: 1.13rem;        
+    }
+
+    .passwords
+    {
+        width:25rem;
+        height:15.63rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #pswd-1,#pswd-2,#pswd-3,#pswd-4
+    {
+        width:12.5rem;
+        height:2.5rem;
+        margin-bottom:0.63rem;
+        margin-left:1rem;
+    }    
+
+}
+    

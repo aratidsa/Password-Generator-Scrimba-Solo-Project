@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator | Scrimba Solo Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!---------- container -------------------->
+    <main class="container">
+          <!---------- title -------------------->
+        <section class="title-details">
+            <h1><span class="pt-1">Generate a</span> <span class="pt-2">random password</span></h1>
+            <h3 class="info">never use an insecure password again.</h3>
+            <h6 class="length-details">*Minimum length of the password is 8 and maximum length is 12</h6>
+        </section>  
+          <!---------- button and input text -------------------->  
+        <section class="btn">
+        <button class="password-generate-btn">Generate Passwords</button>
+        <input type="number" min="8" max="12" value="8" class="input-data">
+        </section>
+          <!---------- passwords -------------------->
+        <section class="passwords">
+            <p id="pswd-1"></p>
+            <p id="pswd-2"></p>
+            <p id="pswd-3"></p>
+            <p id="pswd-4"></p> 
+        </section>
+   </main>
+
+<script src="app.js"></script>
+</body>
+</html>
