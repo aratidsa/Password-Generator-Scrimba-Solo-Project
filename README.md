@@ -1,5 +1,5 @@
 # Password-Generator-Scrimba-Solo-Project
-Password Generator using vanilla JavaScript , HTML and CSS
+**Password Generator using vanilla JavaScript , HTML and CSS**
 
 - I have built Password Generator using HTML,vanilla JavaScript and CSS – Flex.
 + This is a solution to the Password Generator: Scrimba Solo Project.
